@@ -8,6 +8,7 @@ import {
   import { MenuIcon } from "lucide-react";
   import Link from "next/link";
   import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components";
+import SettingPage from "../settings/page";
   
   interface iAppProps {
     userImage: string | null;
